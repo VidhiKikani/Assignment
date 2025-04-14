@@ -1,0 +1,26 @@
+.navbar{
+    padding:14px 20px;
+    background-color:black;
+    display:flex;
+    justify-content: flex-end;
+}
+.navbar a{
+    color:white;
+    padding: 14px 10px;
+    font-size: larger;
+}
+.navbar a:hover{
+    background-color:gray;
+}
+a{
+    color:antiquewhite;
+}
+body{
+    background-color:  aliceblue;
+}
+@media (max-width:658px)
+{
+    body{
+        background-color:lightpink;
+    }
+}

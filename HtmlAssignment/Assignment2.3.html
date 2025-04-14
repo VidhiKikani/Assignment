@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <style>
+        h2{
+            text-align: center;
+        }
+
+        form{
+            margin-left: 36%;
+            padding:50px;
+            border:2px solid black;
+            display:block;
+            background-color:rgb(222, 222, 222);
+            height: 300px;
+            width: 350px;
+            font-size: 20px;
+        }
+    
+        button{
+            padding: 5px;
+            margin-right: 50px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <form>
+        Enter your name: <input type="text">
+        <br><br>
+        E-mail: <input type="email" id="email" name="email">
+        <br><br>
+        Gender: <input type="radio" value="Male" name="Gender" id="Male">Male
+        <input type="radio" value="Female" name="Gender" id="Female">Female
+        <br><br>
+        Interests: <input type="checkbox" value="Reading" name="Interests" id="Reading">Reading
+        <input type="checkbox" value="Music" name="interests" id="Music">Music
+        <input type="checkbox" value="Sports" name="Interests" id="Sports">Sports
+        <br><br>
+        <button type="Submit" value="Submit" name="button" id="Submit">Submit</button>
+        <button type="Reset" value="Reset" name="button" id="Reset">Reset</button>
+    </form>
+
+</body>
+</html>
